@@ -27,6 +27,9 @@ li{
     padding-bottom: .50em;
 }
 button{
+    width: 150px;
+    margin: 0 auto;
+    display: inline;
     padding: 10px 20px 10px 20px;
     background: #e109f0;
     background-image: -webkit-linear-gradient(top, #e109f0, #734ec9);
@@ -40,7 +43,6 @@ button{
     font-family: Arial;
     color: #ffffff;
     font-size: 14px;
-    display:list-item;
     text-decoration: none;
 }
 button:hover{
@@ -52,7 +54,9 @@ button:hover{
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
 }
-
+input{
+    padding: .05em;
+}
 
 @media screen and (min-width: 280px){
     body{
