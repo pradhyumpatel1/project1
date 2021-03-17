@@ -40,7 +40,7 @@ button{
     font-family: Arial;
     color: #ffffff;
     font-size: 14px;
-    
+    display:list-item;
     text-decoration: none;
 }
 button:hover{
