@@ -4,4 +4,10 @@ jQuery(function($) {
     $('html').addClass('hasjs');
   });
   
-function ClearFields()
+function reset() {
+  document.getElementById("FName").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("date").value = "";
+  document.getElementById("PN").value = "";
+
+}
