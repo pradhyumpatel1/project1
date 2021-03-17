@@ -26,6 +26,14 @@ ul{
 li{
     padding-bottom: .50em;
 }
+footer{
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.5em;
+}
 button{
     width: 150px;
     margin: 0 auto;
