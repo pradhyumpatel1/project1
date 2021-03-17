@@ -4,3 +4,4 @@ jQuery(function($) {
     $('html').addClass('hasjs');
   });
   
+function ClearFields()
